@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+</head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./departments.html">Departments</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <video autoplay loop muted playsinline id="bgvid">
+        <source src="./resco/bgvid_5.mp4" type="video/mp4">
+    </video>
+
+    <div class="container">
+        <form>
+            <h1>Contact Us Form</h1>
+            <input type="text" id="firstName" placeholder="First Name" required>
+            <input type="text" id="lastName" placeholder="Last Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="mobile" placeholder="Mobile" required>
+            <textarea  placeholder="Type Your Message Here..." required></textarea>
+            <input type="submit" value="Send" id="button">
+        </form>
+    </div>
+</body>
+</html>
